@@ -24,7 +24,7 @@ class _WebviewSampleScreenState extends State<WebviewSampleScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFF9cd0a8),
       appBar: AppBar(
-        title: const Text("hello World"),
+        title: const Text("hello Worlds"),
         backgroundColor: const Color(0xFF9cd0a8),
       ),
       body: const WebView(
