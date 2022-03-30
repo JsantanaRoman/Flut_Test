@@ -15,6 +15,7 @@ class SampleButton extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(8.0),
+        color: Colors.deepPurple,
       ),
       child: TextButton(
         onPressed: onPressed,
