@@ -25,8 +25,11 @@ class StartScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              Expanded(
-                  child: Lottie.asset('assets/animations/controller.json')),
+              Lottie.asset(
+                'assets/animations/controller.json',
+                width: 100,
+                height: 100,
+              ),
               SampleButton(
                 text: "Log in",
                 onPressed: () async {
