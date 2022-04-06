@@ -20,6 +20,12 @@ dependencies:
   go_router: ^3.0.5
   webview_flutter: ^3.0.1
   url_launcher: ^6.0.20
+  test_package:
+    git:
+      url: git@github.com:Jsantana96/Flut_Pac_Test.git
+
+
+
   
 
 dev_dependencies:

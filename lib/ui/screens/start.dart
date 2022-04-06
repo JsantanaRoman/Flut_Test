@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flut_test/ui/screens/sample_webview.dart';
 import 'package:lottie/lottie.dart';
+import 'package:test_package/hello_world.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../widgets/sample_button.dart';
@@ -30,6 +31,7 @@ class StartScreen extends StatelessWidget {
                 width: 100,
                 height: 100,
               ),
+              const HelloWorld(),
               SampleButton(
                 text: "Log in",
                 onPressed: () async {
